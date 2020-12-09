@@ -4,6 +4,7 @@ import { mul } from '../math2';
 import { sub } from '../math3';
 import { test1, test2 } from '../test/test1'
 import { test3 } from '../test/def';
+import { test4 } from '../test-cjs';
 
 @Component({
   selector: 'hello',
@@ -20,6 +21,7 @@ export class HelloComponent  {
     console.log(test1(1, 3));
     console.log(test2(1, 3));
     console.log(test3());
+    console.log(test4());
   }
 }
 
